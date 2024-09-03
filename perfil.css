@@ -7,5 +7,13 @@ body{
 .perfil_card {
     background-color: rgb(224, 0, 94);
     text-align: center;
-    border-radius:  50%;
+    border-radius:  10px;
+    padding:30px;
 }
+.perfil_card img {
+   widht: 150px;
+    height: 150px;
+    border-radius: 50%
+}
+.perfil_card li {
+    text-align: left
