@@ -1,0 +1,134 @@
+header{
+    background-color: rgb(255, 255, 233);
+    color: rgb(5, 3, 3);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family:fantasy;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.texto{
+    margin: 15px;
+}
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+padding: 20px;
+}
+nav a:hover {
+    color: rgb(95, 91, 91);
+    text-decoration: none;
+
+}
+.card-grid {
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: "a a a a";
+    gap: 20px;
+    width: 1300px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1em;
+    color: #666;
+}
+
+.card-content .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #4a9bf1;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.card-content .btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+body { 
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 218, 187);
+    min-height: 100vh;
+    flex-direction: column;
+}
+form {
+    background-color:burlywood;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(11, 184, 54, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border:  1px;
+    border-radius: 3px;
+}
+textarea{
+    height: 120px;
+}
+button{
+    background-color: rgb(255, 152, 104);
+    color: aliceblue;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #ffdcb4;
+}
