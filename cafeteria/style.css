@@ -1,0 +1,67 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #8f4101;
+    color: #3d2b1f;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/fundo.png);
+}
+
+.menu-container {
+    
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 130px;
+    background-color: #f1b276;
+    border-radius: 40px;
+    
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e3dcc7;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+ul li {
+    display: auto;
+    justify-content:space-around;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+ul li strong {
+    font-weight: bold;
+}
+
+section.aromatics {
+    text-align: center;
+}
+
+section.aromatics h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+section.aromatics p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
